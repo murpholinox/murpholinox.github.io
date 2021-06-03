@@ -156,6 +156,8 @@ Error:
 ```
 
 > Update: ticket is [here](https://plato.cgl.ucsf.edu/trac/ChimeraX/ticket/4709#comment:1).
+> 2nd Update: I installed it. Check the previous link. Had to remove `rstudio`, install `chimerax`, and reinstall `rstudio` (but the one from the Fedora repositories).
+
 
 ## VMD
 
@@ -169,3 +171,4 @@ cd src/
 sudo make install
 ```
 
+Where `VERSION` is the version of the downloaded `vmd`. 
