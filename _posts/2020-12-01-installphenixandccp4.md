@@ -13,7 +13,7 @@ To install [CCP4](https://www.ccp4.ac.uk/) and [Phenix](http://www.phenix-online
 
 ## CCP4
 
-Download the installer and do...
+Download the (linux) installer and do...
 
 ```bash
 sudo mkdir /opt/xtal
@@ -23,18 +23,20 @@ cd linux-x86_64_ccp4-7.1-setup/
 ./ccp4-7.1-setup
 ```
 
->Warning: in the first window do not forget to tick the option 'modify command line environment'.
+>Warning: in the first window do not forget to tick the option 'modify command line environment'. Makes things easier.
 
-Then just click 'next' a few times, fill in the blanks and click on 'Install' and then on 'Finish'
+Then just click 'next' a few times, fill in the blanks and click on 'Install'...have a coffee in the meanwhile...and finally click on 'Finish'
 
 That's it.
 
 ## Phenix
 
-Phenix used to be easier. Now you gotta register every time you download the suite.
+Phenix used to be easier. Now you gotta register every time you download the suite (a pita if you ask me...)
 ![phenix]({{ site.url }}/assets/images/rect865.png)
 
-After that the password is sent to your academic email address and you must download the software before the password expires (If I remember correctly it's about a week). 
+The password to download phenix will be sent to your academic e-mail address. 
+
+> Warning: You must download the software before the password expires (If I remember correctly it's about a week or a day?). 
 
 Then do...
 

@@ -31,16 +31,16 @@ With `chmod` we can change the permissions given to a file. The change is absolu
  110    |   6
  111    |   7
 
-and we also need a bit of logic..
+and we also need a bit of logic ...
 
 
-## The bit of logic...
+## The bit of logic
 
 1. Think about the permissions the file should have (let's say we want `rwxrw-r-x`, this will be your 'string').
 2. Convert to binary your 'string'.
    - For every character in our 'string', put a 1 instead of a letter and a 0 instead of a dash (so `rwxrw-r-x` translates to `111110101`)
 3. Convert your binary 'string' to decimal.
-   - Cut your string into 3 sets, and convert: the table above shows that `111`, `110` and `101` are 7, 6 and 5, respectively.
+   - Cut your string into 3 sets and convert: the table above shows that `111`, `110` and `101` are 7, 6 and 5, respectively.
 4. Change permissions to file with `chmod 765 file`.
 
 ## Example

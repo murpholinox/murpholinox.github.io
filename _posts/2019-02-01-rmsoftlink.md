@@ -26,9 +26,9 @@ rm: cannot remove 'dir1-sym2/': Is a directory
 # Force of habit kicks in
 rm -r dir1-sym2/
 rm: cannot remove 'dir1-sym2/': Not a directory
-# Wait!.. what!? Force of habit again kicks in
+# Wait!.. what!? Force of habit, again, kicks in
 rm -rf dir1-sym2/
-# Not a single error message, hehehe we won! let's check
+# Not a single error message, hehehe we won! ... let's check
 ls -li
 total 8
 36049241 drwxrwxr-x. 2 murphy murphy 4096 Feb  1 11:33 dir1
@@ -37,7 +37,7 @@ total 8
 # Whaaaaat?! It's still there!
 # So... before breaking your computer you have to remember that
 # the link is a file pointing to a directory. The proper way to remove it is
-# by not including the final slash (so tabtab was our enemy) 
+# by not including the final slash (tabtab was the enemy) 
 rm dir1-sym2
 # Confirm
 ls -li

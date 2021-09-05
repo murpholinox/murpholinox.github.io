@@ -59,6 +59,8 @@ Now go to the 'Window Titlebars' section and toggle the maximize and minimize bu
 
 ## Firefox preferences
 
-Sign in to your Firefox account.
+Sign in to your Firefox account to synchronize all of your extensions and preferences.
 
 ![signinfirefox]({{ site.url }}/assets/images/signinfirefox.png)
+
+> Update: A nice alternative is the brave browser.

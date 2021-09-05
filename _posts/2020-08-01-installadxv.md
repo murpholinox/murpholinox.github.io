@@ -7,7 +7,7 @@ tag: XRC
 
 
 
-Adxv can be used to display and analyze 2-D area detector data. It is optimized to display X-Ray crystallography diffraction images.  The data may be displayed as a 1-D cross section, 2-D image or 3-D surface.
+Adxv can be used to display and analyze 2-D area detector data. It is optimized to display X-Ray crystallography diffraction images.  The data may be displayed as a 1-D cross section,  a 2-D image or a 3-D surface.
 
 From [here](https://www.scripps.edu/tainer/arvai/adxv.html).
 

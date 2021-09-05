@@ -177,7 +177,7 @@ Proceed with changes? [N/y] y
 g++: fatal error: no input files
 compilation terminated.
 
-[murphy@fedora ~]$ gem install jekyll # This will succed!
+[murphy@fedora ~]$ gem install jekyll # This will succeed!
 Building native extensions. This could take a while...
 Successfully installed sassc-2.4.0
 Successfully installed jekyll-sass-converter-2.1.0

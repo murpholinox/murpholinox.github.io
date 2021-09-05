@@ -10,7 +10,7 @@ tag: XRC
 We have three ways to install PyMOL. 
 
 1.  Install from the source code, follow the [wiki](https://pymolwiki.org/index.php/Linux_Install). This is sometimes a pita, sometimes it just works.
-2.  Install it with the package manager of your Linux distribution `sudo dnf -y install pymol`. The problem with this approach is that the version installed is not the latest and is the 'educational version'. The good thing is that it just works. 
+2.  Install it with the package manager of your Linux distribution `sudo dnf -y install pymol`. The problem with this approach is that the version installed is not the latest and is the 'educational version'. Debian-based distros, like Ubuntu, will have an older version than Fedora. The good thing is that it just works. 
 3.  Get a license [here](https://pymol.org/dsc/index.php?ip=license/) and download `pymol` from [here](https://pymol.org/2/). After that do:
 
 ```bash
@@ -36,7 +36,7 @@ libGL error: MESA-LOADER: failed to open swrast: /home/murphy/Downloads/pymol/li
 libGL error: failed to load driver: swrast
 ```
 
-> Update: I gotta say I bought an academic license for a year and supposedly you get documentation and support but the latter  is really unnecessary and the documentation was way too old. 
+> Update: I gotta say I bought an academic license for a year and supposedly you get documentation and support but the latter is really unnecessary and the documentation was way too old. 
 
 
 ## Chimera
@@ -171,4 +171,4 @@ cd src/
 sudo make install
 ```
 
-Where `VERSION` is the version of the downloaded `vmd`. 
+Where `VERSION` is the version of  `vmd`. 

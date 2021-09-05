@@ -31,4 +31,4 @@ Password:
 lolo
 ```
 
-This how-to was from this nice [video](https://www.youtube.com/watch?v=PO0aQL3Jhnw).
+This how-to was taken from this nice [video](https://www.youtube.com/watch?v=PO0aQL3Jhnw).

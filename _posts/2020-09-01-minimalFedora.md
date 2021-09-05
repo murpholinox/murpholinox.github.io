@@ -17,9 +17,9 @@ tag: Fedora
 2. Burn it to a USB drive with `sudo dd if=/path/to/file.iso of=/dev/sdX`, where you can find the value of X by typing the command `df -h` before and after inserting your USB drive into the computer.
 3. Reboot (You gotta told your BIOS to read your USB drive before the HD).
 4. Set the language, choose the keyboard layout, set the proper time zone, check that the software sources will be downloaded from the Internet (closest mirror), set the hostname, and finally choose where and how Fedora will be installed (I normally choose the standard partition scheme).
-5. In the software selection window, choose "Fedora custom OS" in the first column and "Standard" on the second column. 
+5. In the software selection window, choose 'Fedora custom OS' in the first column and 'Standard' on the second column. 
 > Warning: I have not tried anything else but this works fine.
-6. When everything is set, you can go ahead and click on "Begin installation".
+6. When everything is set, you can go ahead and click on 'Begin installation'.
 7. After installation is complete, reboot and remove your USB drive.
 
 ## Add the desktop and some useful applications

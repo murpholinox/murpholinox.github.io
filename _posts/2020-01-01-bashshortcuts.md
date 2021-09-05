@@ -105,5 +105,5 @@ A+b/f  # move cursor backward/forward one word (same as C+left/right arrows)
 C+p/n  # previous/next line in history list (same as up/down arrow)
 
 
-!bla   # re-executes command starting with 'bla' (useful only if you want to repeat last command, !! is a better alternative)
+!`blah`   # re-executes command starting with `blah` (useful only if you want to repeat last command, !! is a better alternative)
 
