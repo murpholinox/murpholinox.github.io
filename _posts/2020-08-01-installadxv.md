@@ -13,4 +13,4 @@ Imagen
 
 Otra imagen
 
-![lola]({{ site.url }}/assets/images/shortcut.png)
+![adxv2]({{ site.url }}/assets/images/adxv2.png)
