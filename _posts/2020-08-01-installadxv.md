@@ -15,8 +15,7 @@ I usually download the `adxv.x86_64CentOS7` version. It works fine under Fedora.
 
 Here is an example of what `adxv` can do:
 
-![adxv](/home/murphy/Repos/blog/assets/images/adxv.png)
-
+![adxv]({{ site.url }})(/assets/images/adxv.png)
 
 > Image is used to show how the 'reflections' at high resolution shells are weaker than 'reflections' at low resolution shells. 
 
