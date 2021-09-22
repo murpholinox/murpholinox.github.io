@@ -21,7 +21,7 @@
 title: Blog by Murpholinox Peligro
 email: murpholinox@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The main idea was to have some notes on how to do `this` and `that` without having to re-google terms and waste precious time. 
+  The main idea was to have some notes on how to do `this` and `that` without having to re-google stuff and waste precious time. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: murpholinox
