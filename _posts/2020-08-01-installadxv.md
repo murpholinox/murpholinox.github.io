@@ -17,5 +17,4 @@ Here is an example of what `adxv` can do:
 
 ![adxv]({{ site.url }}/assets/images/adxv.png)
 
-> Image is used to show how the 'reflections' at high resolution shells are weaker than 'reflections' at low resolution shells. 
-
+> Image shows that the 'reflections' at high resolution shells are weaker than the 'reflections' at low resolution shells. 
