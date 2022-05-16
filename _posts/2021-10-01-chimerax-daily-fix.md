@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chimerax-daily fix
+title: Chimerax-daily fix in F36
 published: true
 tag: Chimera
 ---
