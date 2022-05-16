@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Chimerax-daily fix
@@ -29,26 +28,6 @@ openssl1.1-1:1.1.1n-1.fc36.i686 : Compatibility version of the OpenSSL library
 Repo        : fedora
 Matched from:
 Provide    : libssl.so.1.1
-
-[murphy@eva03 install-tl-20220504]$ sudo dnf install opens
-Display all 164 possibilities? (y or n)
-[murphy@eva03 install-tl-20220504]$ sudo dnf install openss
-openssh-askpass-8.8p1-1.fc36.1.x86_64
-openssh-keycat-8.8p1-1.fc36.1.x86_64
-openssh-ldap-authkeys-0.1.0~git20200205.aee4c46-5.fc36.noarch
-openssl1.1-1:1.1.1n-1.fc36.i686
-openssl1.1-1:1.1.1n-1.fc36.x86_64
-openssl1.1-devel-1:1.1.1n-1.fc36.i686
-openssl1.1-devel-1:1.1.1n-1.fc36.x86_64
-openssl-1:3.0.2-4.fc36.x86_64
-openssl-devel-1:3.0.2-4.fc36.i686
-openssl-devel-1:3.0.2-4.fc36.x86_64
-openssl-gost-engine-3.0.0-2.fc36.x86_64
-openssl-ibmpkcs11-1.0.2-10.fc36.x86_64
-openssl-libs-1:3.0.2-4.fc36.i686
-openssl-libs-1:3.0.2-4.fc36.x86_64
-openssl-perl-1:3.0.2-4.fc36.x86_64
-openssl-pkcs11-0.4.11-8.fc36.i686
 [murphy@eva03 install-tl-20220504]$ sudo dnf install openssl1.1-devel
 Last metadata expiration check: 1:27:26 ago on Thu 05 May 2022 04:18:11 PM CDT.
 Dependencies resolved.
