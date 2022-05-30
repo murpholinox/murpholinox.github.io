@@ -33,8 +33,8 @@ sudo ./install-tl -gui
 ```bash
 cd /
 sudo find -name "texlive-fontconfig.conf"
-cp /path/to/found/file /etc/fonts/conf.d/09-texlive.con
-fc-cache -fsv
+cp /path/to/texlive-fontconfig.conf /etc/fonts/conf.d/09-texlive.conf
+sudo fc-cache -fsv
 ```
 
 That's it.
