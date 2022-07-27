@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Installing RIDL 
+title: How to install RIDL?
 published: true
 tag: XRC 
 ---
