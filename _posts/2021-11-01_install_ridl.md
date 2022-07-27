@@ -1,4 +1,8 @@
 ---
+layout: post
+title: Installing RIDL 
+published: true
+tag: XRC 
 ---
 
 To install [ridl](https://github.com/charliebury/RIDL), we need to do...
@@ -15,4 +19,4 @@ Then, `python $REPOS/RIDL/runRIDL.py --dependencies` should say evrything is up 
 
 :)
 
-> PS... Python 2.7 and 3.6 are already [dead](https://endoflife.date/python).
+> Ps... Python 2.7 and 3.6 are already [dead](https://endoflife.date/python).
