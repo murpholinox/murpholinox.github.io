@@ -13,4 +13,4 @@ conda init
 source ~/.bashrc
 ```
 
-Full documentation is in [here](https://docs.conda.io/projects/conda/en/latest/commands.html)
+Full documentation is [here](https://docs.conda.io/projects/conda/en/latest/commands.html)
