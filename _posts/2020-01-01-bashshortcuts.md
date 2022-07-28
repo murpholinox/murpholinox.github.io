@@ -2,14 +2,10 @@
 layout: post
 title: Some Bash shortcuts
 published: true
-tag: Bash
+tag: command line
 ---
 
-
-
 Some Bash shortcuts that we need to learn. Download the pdf from [here]({{ site.url }}/assets/pdf/bash_cheatsheet.pdf).
-
-
 
 ## MOVING
 C+xx   # toggle cursor position from current position to bol

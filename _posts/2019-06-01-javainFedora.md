@@ -2,18 +2,12 @@
 layout: post
 title: How to install Oracle Java in Fedora?
 published: true
-tag: Java
+tag: java
 ---
-
-
 
 Here is how to install `java` from Oracle on Fedora. We normally do not want this, unless we need to run a `java` program. 
 
-
-
-
 1. Go [here](https://www.java.com/en/download/linux_manual.jsp) and download the Linux x64 `rpm` version.
-
 2. Then install with
 ```bash
 cd Downloads/
@@ -24,4 +18,3 @@ sudo rpm -ihvh ./jre*linux-x64.rpm
 
 
 Be happy!
-

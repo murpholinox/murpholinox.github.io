@@ -2,7 +2,7 @@
 layout: post
 title: My blogging workflow with Git
 published: true
-tag: Git
+tag: git
 ---
 
 

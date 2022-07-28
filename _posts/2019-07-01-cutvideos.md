@@ -2,14 +2,10 @@
 layout: post
 title: How to cut videos with ffmpeg?
 published: true
-tag: FFmpeg
+tag: ffmpeg
 ---
 
-
-
 Here is how to extract part of a video.
-
-
 
 ```bash
 # extracts 5 minutes

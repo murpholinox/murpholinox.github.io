@@ -2,16 +2,14 @@
 layout: post
 title: How to set root's password in Fedora?
 published: true
-tag: Fedora
+tag: fedora
 ---
 
+A few Fedora versions ago, and if you install the 'Fedora Workstation' version, root password is never set. 
 
+> Warning: This is not the case when installing Fedora Everything. 
 
-A few Fedora versions ago, and if you install Fedora Workstation, root password is never set. 
-
-> Warning: this is not the case when installing Fedora Everything. 
-
-You get a user with `sudo` privileges. To set up root password you have to do the following:
+You get a user with `sudo` privileges. To set up `root` password you have to do the following:
 
 ```bash
 [murphy@eva02 ~]$ sudo -i

@@ -2,12 +2,12 @@
 layout: post
 title: If/Else construct in R
 published: true
-tag: R
+tag: r
 ---
 
-So, I have been learning R, mostly through [datacamp](https://learn.datacamp.com/) as there was an offer: all courses free for one week. That was nice ...
+So, I have been learning `R`, mostly through [datacamp](https://learn.datacamp.com/). 
 
-```
+```r
 number <- 2500
 if (number < 11) {
   if (number < 6) {

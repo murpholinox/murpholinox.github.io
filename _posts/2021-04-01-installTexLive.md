@@ -2,16 +2,13 @@
 layout: post
 title: How to install Tex Live in Fedora?
 published: true
-tag: LaTex
+tag: latex
 ---
 
+Here  is how to install the latest version of Tex-Live in Fedora. 
 
-
-Here  is how to install the latest version of Tex Live in Fedora. 
-
-
-
-1.  
+1.
+ 
 ```bash
 sudo dnf -y install aria2 perl-Tk tk 
 cd ~/Downloads
@@ -26,7 +23,7 @@ sudo ./install-tl -gui
 3. Change the personal directory and the size of the paper (in Mexico we do not have A4 paper or at least is difficult to get it) and we hit the button 'Install' 
 ![2ndwintexlve]({{ site.url }}/assets/images/second_window_texlive.png)
 
-4. After installation is complete do in your terminal `cd && echo PATH=/usr/local/texlive/YEAR/bin/x86_64-linux:$PATH >> ~/.bashrc`, where YEAR is the version of your Tex Live.
+4. After installation is complete do in your terminal `cd && echo PATH=/usr/local/texlive/YEAR/bin/x86_64-linux:$PATH >> ~/.bashrc`, where YEAR is the version of your Tex-Live.
 
 5. Set up Tex Live fonts for system-wide use. 
 

@@ -2,19 +2,16 @@
 layout: post
 title: Permissions on Linux
 published: true
-tag: Linux 
+tag: command line
 ---
 
-
-
 Here is a guide to file permissions on Linux. Enjoy!
-
-
 
 ## Some background
 We can read, write and execute a file. The clever way to abbreviate this is with three characters: `rwx`. To remove a particular permission we use a dash, so `r-x` means we can read and execute the file but not write to it. 
 
-In the Linux world, you might be sharing the computer you are using. So we have three sets of permissions `rwxrwxrwx`. The acronym UGO will help you remember that the first set of permissions is for the 'User' (meaning the owner of the file); the next three for the 'Group' (meaning the users in the group of the owner); and the last three for 'Others' (meaning everybody else). So a Linux file with `rw-r-----` permissions means that the owner of the file can read and write to it, users on your group can read the file and others can do nothing with it. 
+## Problem
+In the Linux world, you might be sharing the computer you are using. So we have three sets of permissions `rwxrwxrwx`. The acronym UGO will help you remember that... the first set of permissions is for the 'User' (meaning the owner of the file); the next three for the 'Group' (meaning the users in the group of the owner); and the last three for 'Others' (meaning everybody else). So a Linux file with `rw-r-----` permissions means that the owner of the file can read and write to it, but not execute it... users on your group can read the file and all others can do nothing with it. 
 
 ## How to change permissions
 With `chmod` we can change the permissions given to a file. The change is absolute. To change permissions, all we need to know is how to count in binary from 0 to 7. 

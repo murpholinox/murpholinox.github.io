@@ -1,21 +1,21 @@
 ---
 layout: post
-title: Solving a few problems while setting up a blog with jekyll
+title: How to set up a blog with jekyll?
 published: true
-tag: Blog
+tag: blog
 ---
 
 
 
 ## Instructions
 
-[Instructions](https://jekyllrb.com/docs/)  to install `jekyll` are listed, but some problems arise.
+[Instructions](https://jekyllrb.com/docs/)  to install `jekyll` are listed.
 
 1. Install all [prerequisites](https://jekyllrb.com/docs/installation/).
 
    > For Fedora we have to do `sudo dnf -y install ruby ruby-devel openssl-devel redhat-rpm-config @development-tools`
 
-2. Install the `jekyll` and `bundler` gems.    
+2. Install the `jekyll` and `bundler` gems.
 
    ```bash
    gem install jekyll bundler
@@ -27,13 +27,13 @@ tag: Blog
    jekyll new myblog
    ```
 
-4. Change into your new directory.    
+4. Change into your new directory.
 
    ```
    cd myblog
    ```
 
-5. Build the site and make it available on a local server.    
+5. Build the site and make it available on a local server.
 
    ```bash
    bundle exec jekyll serve
@@ -225,5 +225,4 @@ Also, as you can see in the comments above, `bundler` gets installed previously.
 Step 5 does not work either. [Here](https://github.com/jekyll/jekyll/issues/8686) is the issue and a link to the solution. This seems to happen only with building the blog with `bundle exec jekyll serve`, if the blog is built with `github-pages` there is no problem at all.
 
 
-
-> Update: both problems happen in Fedora 33 and Fedora 34.
+> Update: Happens in Fedora 33 and Fedora 34.

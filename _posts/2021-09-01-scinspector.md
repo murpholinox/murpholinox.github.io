@@ -1,13 +1,19 @@
 ---
 layout: post
-title: Sidechain Inspector
+title: How to inspect sidechains one by one?
 published: true
-tags: XRC
+tags: x-ray crystallography
 ---
 
-In Coot... do set 'Calculate' -> 'Scripting' -> 'Python' `set_reoTABTAB` and put `1` inside the parenthesis.
+## Coot
 
-In PyMOL... 'File' -> 'Run script' and pick `sc_inspector.pml`.
+Do 'Calculate' -> 'Scripting' -> 'Python' `set_reoTABTAB` and put `1` inside the parenthesis.
+
+## PyMOL
+
+Do 'File' -> 'Run script' and pick `sc_inspector.pml`.
+
+Where `sc_inspector.pml` contains the following code:
 
 ```python
 # Sidechain Inspector

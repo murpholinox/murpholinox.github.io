@@ -2,14 +2,10 @@
 layout: post
 title: How to get a 'minimal' Fedora with a Gnome Desktop?
 published: true
-tag: Fedora
+tag: fedora
 ---
 
-
-
 ...some might disagree with the 'minimal' term.
-
-
 
 ## Installation
 
@@ -23,4 +19,5 @@ tag: Fedora
 7. After installation is complete, reboot and remove your USB drive.
 
 ## Add the desktop and some useful applications
+
 Now login and do `sudo dnf -y install @base-x gnome-shell gnome-terminal gnome-tweaks firefox nautilus git vim evince eog` and after that do `sudo systemctl set-default graphical.target`. Reboot and be happy.

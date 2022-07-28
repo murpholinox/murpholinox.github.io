@@ -2,7 +2,7 @@
 layout: post
 title: Primera calaverita a Lucía
 published: true
-tag: Calaveritas
+tag: calaverita
 ---
 
 

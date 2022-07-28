@@ -2,14 +2,10 @@
 layout: post
 title: How to have a Git-aware prompt?
 published: true
-tag: Git
+tag: git
 ---
 
-
-
 The next `bash` script provides command completion to `git` commands and a `git`-aware prompt.
-
-
 
 ```bash
 # Usage:

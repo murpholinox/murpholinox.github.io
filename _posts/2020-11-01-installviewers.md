@@ -2,7 +2,7 @@
 layout: post
 title: How to install PyMOL, Chimera and VMD in Fedora?
 published: true
-tag: XRC
+tag: x-ray crystallography
 ---
 
 ## PyMOL
@@ -25,7 +25,7 @@ echo "# PyMOL alias" >> .bashrc
 echo "alias pymol='/home/`whoami`/Downloads/pymol/bin/pymol'" >> .bashrc
 ```
 
-> Warning: this `pymol` does not work in Fedora 34. You only get a black screen. The error is the following:
+> Warning: This `pymol` does not work in Fedora 34. You only get a black screen. The error is the following:
 
 ```bash
 libGL error: MESA-LOADER: failed to open iris: /home/murphy/Downloads/pymol/lib/python3.7/site-packages/pymol/../../../libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /usr/lib64/dri/iris_dri.so) (search paths /usr/lib64/dri)
@@ -156,12 +156,14 @@ Error:
 ```
 
 > Update: ticket is [here](https://plato.cgl.ucsf.edu/trac/ChimeraX/ticket/4709#comment:1).
+
 > 2nd Update: I installed it. Check the previous link. Had to remove `rstudio`, install `chimerax`, and reinstall `rstudio` (but the one from the Fedora repositories).
 
 
 ## VMD
 
 `vmd` is another good alternative to `pymol` and it is free. Go [here](https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD) and download it, then do:
+
 ```bash
 cd ~/Downloads
 tar xvzf vmd-*tar.gz 

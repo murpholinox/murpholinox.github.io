@@ -2,10 +2,8 @@
 layout: post
 title: How to install CCP4 and Phenix in Fedora?
 published: true
-tags: XRC
+tags: x-ray crystallography
 ---
-
-
 
 To install [CCP4](https://www.ccp4.ac.uk/) and [Phenix](http://www.phenix-online.org/) in Fedora you have to do the following.
 
@@ -23,7 +21,7 @@ cd linux-x86_64_ccp4-7.1-setup/
 ./ccp4-7.1-setup
 ```
 
->Warning: in the first window do not forget to tick the option 'modify command line environment'. Makes things easier.
+>Warning: In the first window do not forget to tick the option 'modify command line environment'. Makes things easier.
 
 Then just click 'next' a few times, fill in the blanks and click on 'Install'...have a coffee in the meanwhile...and finally click on 'Finish'
 
@@ -36,7 +34,7 @@ Phenix used to be easier. Now you gotta register every time you download the sui
 
 The password to download phenix will be sent to your academic e-mail address. 
 
-> Warning: You must download the software before the password expires (If I remember correctly it's about a week or a day?). 
+> Warning: You must download the software before the password expires (If I remember correctly it expires every monday or something like that...). 
 
 Then do...
 

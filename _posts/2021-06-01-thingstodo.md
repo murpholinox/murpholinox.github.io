@@ -2,9 +2,8 @@
 layout: post
 title: Things to do after installing Fedora 34
 published: true
-tag: Fedora
+tag: fedora
 ---
-
 
 Fedora 34 is very nice. Here are a few things you must do after installing Fedora ...  
 
@@ -12,7 +11,9 @@ Fedora 34 is very nice. Here are a few things you must do after installing Fedor
 Open your terminal and do `sudo dnf update`. 
 
 ## Install some stuff
+
 ### Typora
+
 ```bash
 cd Downloads
 wget https://typora.io/linux/Typora-linux-x64.tar.gz
@@ -23,14 +24,18 @@ echo "alias typora='/home/`whoami`/Downloads/bin/Typora-linux-x64/Typora'" >> .b
 or try  `marker` with `sudo dnf -y install marker`.
 
 ### Vim 
+
 `sudo dnf -y install vim`.
 
 ### VLC
-Enable the RPM-Fusion repositories with
+
+First enable the RPM-Fusion repositories with
+
 ```bash
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm 
 ```
-and then do `sudo dnf -y install vlc`.
+
+Then do `sudo dnf -y install vlc`.
 
 ## Change some settings
 Open the settings application and ...
@@ -51,6 +56,7 @@ Still in 'Keyboard', go to 'Input Sources', and click on the plus sign to add a 
 
 ## Some tweaks
 Install `gnome-tweaks` with `sudo dnf -y install gnome-tweaks` and open it.
+
 ### Make a useful touchpad
 Go to 'Keyboard & Mouse' and choose 'Area' under 'Mouse Click Emulation'.
 
@@ -63,4 +69,3 @@ Sign in to your Firefox account to synchronize all of your extensions and prefer
 
 ![signinfirefox]({{ site.url }}/assets/images/signinfirefox.png)
 
-> Update: A nice alternative is the brave browser.

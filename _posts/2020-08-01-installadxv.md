@@ -2,7 +2,7 @@
 layout: post
 title: How to install adxv?
 published: true
-tag: XRC
+tag: x-ray crystallography
 ---
 
 
@@ -12,7 +12,7 @@ Adxv can be used to display and analyze 2-D area detector data. It is optimized 
 From [here](https://www.scripps.edu/tainer/arvai/adxv.html).
 
 ## Installation
-I usually download the CentOS7 version, which works just fine in Fedora. Be sure that it has proper permissions and then move it into `/usr/local/bin`, preferably with a shorter name `adxv`.
+Installation **per se** is not needed.You download a binary and put it in the `$PATH`. I usually download the CentOS7 version, which works just fine in Fedora. Be sure that it has proper permissions and then move it into `/usr/local/bin`, preferably with a shorter name `adxv`.
 
 ## Example
 
@@ -21,4 +21,3 @@ I usually download the CentOS7 version, which works just fine in Fedora. Be sure
 The image above shows that the 'reflections' at high resolution shells are weaker than the 'reflections' at low resolution shells.
 
 > Ps. You can also create wicked cool movies, information for doing that is in the manual.
-

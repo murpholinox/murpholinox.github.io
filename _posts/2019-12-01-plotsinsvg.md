@@ -2,14 +2,10 @@
 layout: post
 title: How to save ggplots in svg format?
 published: true
-tag: R
+tag: ggplot2
 ---
 
-
-
 To save plots in `svg` format do:
-
-
 
 1- `install.packages("svglite")`.
 

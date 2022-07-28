@@ -2,14 +2,10 @@
 layout: post
 title: How to remove a soft link to a directory?
 published: true
-tag: Linux 
+tag: command line
 ---
 
-
-
 Just as the title says! Check the comments!
-
-
 
 ```bash
 # Create a soft link
@@ -45,4 +41,3 @@ total 8
 36049241 drwxrwxr-x. 2 murphy murphy 4096 Feb  1 11:33 dir1
 36177087 drwxrwxr-x. 2 murphy murphy 4096 Feb  1 11:18 dir2
 ```
-

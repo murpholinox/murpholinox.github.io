@@ -2,7 +2,7 @@
 layout: post
 title: LaTex templates
 published: true
-tag: LaTex
+tag: latex
 ---
 
 
