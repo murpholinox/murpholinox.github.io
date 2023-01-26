@@ -5,7 +5,7 @@ published: true
 tag: r
 ---
 
-So, I have been learning `R`, mostly through [datacamp](https://learn.datacamp.com/). 
+So, I have been learning `R`, mostly through [datacamp](https://www.datacamp.com/). 
 
 ```r
 number <- 2500
